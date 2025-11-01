@@ -102,7 +102,7 @@ model = TumorClassifier(num_classes=4)
 model.load_state_dict(torch.load("best_model.pth", map_location='cpu'))
 model.eval()
 ```
-🔮 **Future Work**
+#🔮 **Future Work**
 
  -Integrate Grad-CAM visualization for explainability of model predictions.
  -Compare performance against a pretrained network (e.g., ResNet-18) to demonstrate the trade-off between lightweight vs heavy models.
@@ -110,7 +110,7 @@ model.eval()
  -Package and deploy the model via FastAPI or Streamlit for interactive use.
  -Convert model to ONNX/TorchScript for mobile or edge deployment.
 
-🧪 Key Skills Demonstrated
+#🧪 Key Skills Demonstrated
 ✅ Designed and implemented a CNN from scratch (no transfer learning)
 ✅ Created a full data-loading and augmentation pipeline tailored for MRI images
 ✅ Managed training cycles, tracking of loss/accuracy, and handled model checkpointing
