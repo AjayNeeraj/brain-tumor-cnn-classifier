@@ -28,15 +28,25 @@ The objective of this project was to develop a deep-learning solution from the g
 - **Folder structure required:**
 
 data/
+
 ├── Training/
+
 │ ├── glioma
+
 │ ├── meningioma
+
 │ ├── pituitary
+
 │ └── no_tumor
+
 └── Testing/
+
 ├── glioma
+
 ├── meningioma
+
 ├── pituitary
+
 └── no_tumor
 
 yaml
