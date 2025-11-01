@@ -4,7 +4,6 @@
 ![PyTorch](https://img.shields.io/badge/Framework-PyTorch-red)
 ![Status](https://img.shields.io/badge/Accuracy-97.41%25-brightgreen)
 ![Model](https://img.shields.io/badge/Model-Custom%202--Layer%20CNN-yellow)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
@@ -103,16 +102,13 @@ model = TumorClassifier(num_classes=4)
 model.load_state_dict(torch.load("best_model.pth", map_location='cpu'))
 model.eval()
 ```
-🔮 Future Work
-Integrate Grad-CAM visualization for explainability of model predictions.
+🔮 **Future Work**
 
-Compare performance against a pretrained network (e.g., ResNet-18) to demonstrate the trade-off between lightweight vs heavy models.
-
-Implement test-time augmentation and confidence scoring for better clinical robustness.
-
-Package and deploy the model via FastAPI or Streamlit for interactive use.
-
-Convert model to ONNX/TorchScript for mobile or edge deployment.
+ -Integrate Grad-CAM visualization for explainability of model predictions.
+ -Compare performance against a pretrained network (e.g., ResNet-18) to demonstrate the trade-off between lightweight vs heavy models.
+ -Implement test-time augmentation and confidence scoring for better clinical robustness.
+ -Package and deploy the model via FastAPI or Streamlit for interactive use.
+ -Convert model to ONNX/TorchScript for mobile or edge deployment.
 
 🧪 Key Skills Demonstrated
 ✅ Designed and implemented a CNN from scratch (no transfer learning)
