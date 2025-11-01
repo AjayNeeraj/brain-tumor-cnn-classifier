@@ -1,1 +1,7 @@
-
+pycache/
+*.pth
+*.pt
+.ipynb_checkpoints
+.env
+data/
+plots/.tmp
