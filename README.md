@@ -89,7 +89,7 @@ Copy code
 - Loss convergence: stable decline, no major divergence  
 - Visual training curves :
 
-![Accuracy And Loss Chart](Accuracy And Loss Chart.png)  
+![Accuracy And Loss Chart](Accuracy&Loss_Chart.png)  
 
 
 ---
