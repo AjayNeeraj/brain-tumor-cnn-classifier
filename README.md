@@ -105,18 +105,27 @@ model.eval()
 ## 🔮 **Future Work**
 
  -Integrate Grad-CAM visualization for explainability of model predictions.
+ 
  -Compare performance against a pretrained network (e.g., ResNet-18) to demonstrate the trade-off between lightweight vs heavy models.
+ 
  -Implement test-time augmentation and confidence scoring for better clinical robustness.
+ 
  -Package and deploy the model via FastAPI or Streamlit for interactive use.
+ 
  -Convert model to ONNX/TorchScript for mobile or edge deployment.
 
 ## 🧪 Key Skills Demonstrated
 ✅ Designed and implemented a CNN from scratch (no transfer learning)
+
 ✅ Created a full data-loading and augmentation pipeline tailored for MRI images
+
 ✅ Managed training cycles, tracking of loss/accuracy, and handled model checkpointing
+
 ✅ Prepared reproducible code, saved model weights, and documented the complete process
+
 ✅ Learned how to overcome dataset challenges, debugging network convergence, and presenting results for production readiness
 
 👤 Author
+
 Developed by AJAY KUMAR
 
