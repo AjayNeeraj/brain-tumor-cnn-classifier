@@ -102,7 +102,7 @@ model = TumorClassifier(num_classes=4)
 model.load_state_dict(torch.load("best_model.pth", map_location='cpu'))
 model.eval()
 ```
-#🔮 **Future Work**
+##🔮 **Future Work**
 
  -Integrate Grad-CAM visualization for explainability of model predictions.
  -Compare performance against a pretrained network (e.g., ResNet-18) to demonstrate the trade-off between lightweight vs heavy models.
